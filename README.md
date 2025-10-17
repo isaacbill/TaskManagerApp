@@ -1,73 +1,75 @@
-# React + TypeScript + Vite
+# 🌙 PLP MERN React Project — Task Manager & API Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is part of the **PLP MERN Course (Week 3 Assignment)**.  
+It demonstrates key React concepts such as **state management**, **routing**, **API integration**, and **dark mode** using **Tailwind CSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+✅ Task Manager — Add, view, and manage tasks.  
+✅ Dark Mode — Toggle between light/dark themes with persistent storage.  
+✅ API Integration — Fetch and display posts from a public API.  
+✅ Routing — Navigation between pages using `react-router-dom`.  
+✅ Responsive Design — Built with Tailwind CSS for all screen sizes.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧩 Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- ⚛️ React + TypeScript  
+- 🎨 Tailwind CSS  
+- 🌗 Context API (for theme management)  
+- 🔄 Axios / Fetch API  
+- 🧭 React Router DOM  
+- ⚙️ Vite (for build & dev server)
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## ⚙️ Setup Instructions
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 1️⃣ Clone the Repository
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+```bash
+git clone [https://github.com/YOUR-USERNAME/plp-react.git](https://github.com/isaacbill/TaskManagerApp)
+cd plp-react
+2️⃣ Install Dependencies
+npm install
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+3️⃣ Run the Development Server
+npm run dev
+
+
+**Open your browser and visit:**
+
+http://localhost:5173
+
+## 📸 Screenshots
+## 📸 Screenshots
+
+### 🏠 Home Page (Light Mode)
+[![Light Mode](./assets/lightmode.png)](./assets/lightmode.png)
+
+### 🌙 Dark Mode
+[![Dark Mode](./assets/darkmode.png)](./assets/darkmode.png)
+
+### 🧾 API Posts Page
+[![API Posts](./assets/apis-fetch.png)](./assets/apis-fetch.png)
+
+### 🪄 Task Actions
+[![Add Task](./assets/actions.png)](./assets/actions.png)
+
+### ❌ Delete Task
+[![Delete Task](./assets/delete.png)](./assets/delete.png)
+
+### ✅ Task Manager View
+[![Task Manager](./assets/task-manager.png)](./assets/task-manager.png)
+
+
+🌍 Deployment
+
+This project is deployed on Vercel 
+
+🔗 Live Demo: [https://your-deployed-app.vercel.app](https://task-manager-app-nine-psi.vercel.app/)
+
