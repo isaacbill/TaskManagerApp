@@ -46,12 +46,26 @@ npm run dev
 http://localhost:5173
 
 **Screenshots**
-<img width="355" height="173" alt="delete action" src="https://github.com/user-attachments/assets/d46e3da7-0115-4964-9da1-c24805450faf" />
-<img width="941" height="366" alt="apis fetch" src="https://github.com/user-attachments/assets/bf86c276-28de-4ad1-a751-414555d38aa0" />
-<img width="943" height="247" alt="lightmode" src="https://github.com/user-attachments/assets/a1d0a623-326c-42f4-9e37-3a3f66d869e9" />
-<img width="944" height="203" alt="darkmode" src="https://github.com/user-attachments/assets/762ca933-a260-49a6-b523-46dd84a7517f" />
-<img width="332" height="221" alt="task manager" src="https://github.com/user-attachments/assets/3e8dd21d-6dbc-4ad1-a00f-677b6e1359ba" />
-<img width="312" height="206" alt="actions" src="https://github.com/user-attachments/assets/9bd8fd2c-04b5-4a46-ba04-46520316a3d1" />
+## 📸 Screenshots
+
+### 🏠 Home Page (Light Mode)
+![Light Mode](./assets/lightmode.png)
+
+### 🌙 Dark Mode
+![Dark Mode](./assetss/darkmode.png)
+
+### 🧾 API Posts Page
+![Posts Page](./assets/apis fetch.png)
+## 📸 Screenshots
+
+
+![Light Mode](./assets/actions.png)
+
+
+![Dark Mode](./assets/delete.png)
+
+
+![Posts Page](./assets/task manager.png)
 
 🌍 Deployment
 
