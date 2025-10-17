@@ -40,7 +40,7 @@ The application is fully deployed and accessible via Vercel:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone [https://github.com/YOUR-USERNAME/plp-react.git](https://github.com/isaacbill/TaskManagerApp)
+git clone https://github.com/isaacbill/TaskManagerApp.git
 cd plp-react
 2️⃣ Install Dependencies
 npm install
