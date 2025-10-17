@@ -1,29 +1,37 @@
 # 🌙 PLP MERN React Project — Task Manager & API Demo
 
-This project is part of the **PLP MERN Course (Week 3 Assignment)**.  
-It demonstrates key React concepts such as **state management**, **routing**, **API integration**, and **dark mode** using **Tailwind CSS**.
+This project is a dedicated frontend application created as part of the **PLP MERN Course (Week 3 Assignment)**. It is a fully responsive task management utility that demonstrates key concepts in modern React development.
+
+---
+
+## 🔗 Live Application
+
+The application is fully deployed and accessible via Vercel:
+
+👉 **[Live Demo: Task Manager & API Demo](https://task-manager-app-nine-psi.vercel.app/)**
 
 ---
 
 ## 🚀 Features
 
-✅ Task Manager — Add, view, and manage tasks.  
-✅ Dark Mode — Toggle between light/dark themes with persistent storage.  
-✅ API Integration — Fetch and display posts from a public API.  
-✅ Routing — Navigation between pages using `react-router-dom`.  
-✅ Responsive Design — Built with Tailwind CSS for all screen sizes.
+✅ **Task Manager (CRUD):** Add, view, manage, and delete tasks.
+✅ **Dark Mode:** Toggle between light and dark themes with persistent user preference storage (via `localStorage`).
+✅ **API Integration:** Fetch and display external data (posts) from a public API, showcasing asynchronous data fetching.
+✅ **Routing:** Seamless navigation between the main Task Manager and API Posts page using `react-router-dom`.
+✅ **Responsive Design:** A clean, mobile-first design built entirely with **Tailwind CSS**.
 
 ---
 
 ## 🧩 Technologies Used
 
-- ⚛️ React + TypeScript  
-- 🎨 Tailwind CSS  
-- 🌗 Context API (for theme management)  
-- 🔄 Axios / Fetch API  
-- 🧭 React Router DOM  
-- ⚙️ Vite (for build & dev server)
-
+| Category | Technology | Purpose |
+| :--- | :--- | :--- |
+| **Frontend** | ⚛️ **React** + **TypeScript** | Core application framework with static typing. |
+| **Styling** | 🎨 **Tailwind CSS** | Utility-first framework for rapid, responsive styling. |
+| **State** | 🌗 **Context API** | Global state management for theme toggling. |
+| **Data Fetching** | 🔄 **Axios / Fetch API** | Handling HTTP requests to the external API. |
+| **Navigation** | 🧭 **React Router DOM** | Managing client-side routing and page transitions. |
+| **Tooling** | ⚙️ **Vite** | Fast build tool and development server. |
 
 ---
 
