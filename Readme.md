@@ -45,27 +45,27 @@ npm run dev
 
 http://localhost:5173
 
-**Screenshots**
+## 📸 Screenshots
 ## 📸 Screenshots
 
 ### 🏠 Home Page (Light Mode)
-![Light Mode](./assets/lightmode.png)
+[![Light Mode](./assets/lightmode.png)](./assets/lightmode.png)
 
 ### 🌙 Dark Mode
-![Dark Mode](./assetss/darkmode.png)
+[![Dark Mode](./assets/darkmode.png)](./assets/darkmode.png)
 
 ### 🧾 API Posts Page
-![Posts Page](./assets/apis fetch.png)
-## 📸 Screenshots
+[![API Posts](./assets/apis-fetch.png)](./assets/apis-fetch.png)
 
+### 🪄 Task Actions
+[![Add Task](./assets/actions.png)](./assets/actions.png)
 
-![Light Mode](./assets/actions.png)
+### ❌ Delete Task
+[![Delete Task](./assets/delete.png)](./assets/delete.png)
 
+### ✅ Task Manager View
+[![Task Manager](./assets/task-manager.png)](./assets/task-manager.png)
 
-![Dark Mode](./assets/delete.png)
-
-
-![Posts Page](./assets/task manager.png)
 
 🌍 Deployment
 
