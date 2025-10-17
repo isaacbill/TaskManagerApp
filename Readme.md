@@ -32,7 +32,7 @@ It demonstrates key React concepts such as **state management**, **routing**, **
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/plp-react.git
+git clone [https://github.com/YOUR-USERNAME/plp-react.git](https://github.com/isaacbill/TaskManagerApp)
 cd plp-react
 2️⃣ Install Dependencies
 npm install
